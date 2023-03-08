@@ -129,9 +129,9 @@ section {
   left: 0;
   bottom: 0;
 }
-/* .menu-link:hover:after {
-  display: block;
-} */
+.menu-link-active {
+  color: var(--hover-ocean);
+}
 .menu-item:not(:last-child) {
   margin-right: 40px;
   /* position: relative; */

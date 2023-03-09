@@ -339,6 +339,7 @@
         </svg>
       </button>
       <form class="modal-form">
+        <p class="modal-title ">Leave your contacts and we will call you back</p>
         <label class="modal-form-field">
           <span class="modal-form-label-descr">Name</span>
         <input type="text" name="user_name" class="modal-form-input" required pattern="^[a-zA-Z]+$"  
@@ -352,11 +353,9 @@
         <label class="modal-form-field"><span class="modal-form-label-descr">Comment</span>
         <textarea name="" 
         id="" 
-        cols="30" 
-        rows="10"
         placeholder="Text input" class="modal-form-message"></textarea></label>
 
-        <input id="user-policy" type="text" class="modal-form-check">
+        <input id="user-policy" type="checkbox" name="user-policy" class="modal-form-check">
         <label for="user-policy" class="modal-form-check-descr">I accept the terms and conditions of the <a href="">Privacy
             Policy</a></label>
             <button class="modal-form-submit">Send</button>

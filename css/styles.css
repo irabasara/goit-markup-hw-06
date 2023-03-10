@@ -452,6 +452,7 @@ section {
 }
 .footer-subscribe-input {
   width: 264px;
+  height: 40px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
@@ -473,6 +474,7 @@ section {
   border-radius: 4px;
   border-color: var(--iris-brand-color);
   width: 165px;
+  height: 40px;
 }
 .footer-btn-subscribe-text {
   font-weight: 500;
@@ -480,11 +482,14 @@ section {
   line-height: 2;
   letter-spacing: 0.04em;
   color: var(--white);
+
+  margin-right: 16px;
 }
 .subscribe-icon {
   position: absolute;
   top: 50%;
-  transform: translate(100%, -50%);
+  left: 117px;
+  transform: translate(0, -50%);
 }
 
 /* ===========portfolio============= */

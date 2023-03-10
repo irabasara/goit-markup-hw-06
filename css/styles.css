@@ -451,6 +451,7 @@ section {
   margin-bottom: 16px;
 }
 .footer-subscribe-input {
+  width: 264px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
@@ -461,6 +462,11 @@ section {
   padding-bottom: 8px;
   margin-right: 24px;
 }
+/* .footer-subscribe-input::placeholder {
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 0.6);
+} */
 .footer-subscribe-btn {
   position: relative;
   background: var(--iris-brand-color);
@@ -471,16 +477,16 @@ section {
 .footer-btn-subscribe-text {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 2;
   letter-spacing: 0.04em;
   color: var(--white);
-  padding: 8px 0 8px 24px;
-  display: block;
 }
 .subscribe-icon {
   position: absolute;
-  right: 50%;
+  top: 50%;
+  transform: translate(100%, -50%);
 }
+
 /* ===========portfolio============= */
 /* ===========portfolio============= */
 /* ===========portfolio============= */

@@ -475,6 +475,13 @@ section {
   border-color: var(--iris-brand-color);
   width: 165px;
   height: 40px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-subscribe-btn:hover,
+.footer-subscribe-btn:focus {
+  background-color: var(--hover-ocean);
+  border-color: var(--hover-ocean);
 }
 .footer-btn-subscribe-text {
   font-weight: 500;
@@ -483,7 +490,7 @@ section {
   letter-spacing: 0.04em;
   color: var(--white);
 
-  margin-right: 16px;
+  margin-right: 40px;
 }
 .subscribe-icon {
   position: absolute;

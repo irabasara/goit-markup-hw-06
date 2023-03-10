@@ -442,6 +442,45 @@ section {
   width: 280px;
   margin-left: 120px;
 }
+.subscribe-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--white);
+  margin-bottom: 16px;
+}
+.footer-subscribe-input {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+  outline: none;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-right: 24px;
+}
+.footer-subscribe-btn {
+  position: relative;
+  background: var(--iris-brand-color);
+  border-radius: 4px;
+  border-color: var(--iris-brand-color);
+  width: 165px;
+}
+.footer-btn-subscribe-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  padding: 8px 0 8px 24px;
+  display: block;
+}
+.subscribe-icon {
+  position: absolute;
+  right: 50%;
+}
 /* ===========portfolio============= */
 /* ===========portfolio============= */
 /* ===========portfolio============= */

@@ -606,6 +606,7 @@ section {
   color: var(--light-slate-subtle);
   margin-top: 8px;
   margin-bottom: 4px;
+  display: block;
 }
 .modal-title {
   font-weight: 500;
@@ -614,4 +615,13 @@ section {
   text-align: center;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
+}
+.modal-form-input-icon {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(50%, 50%);
+}
+.modal-wrap-icon {
+  position: relative;
 }

@@ -340,16 +340,26 @@
       </button>
       <form class="modal-form">
         <p class="modal-title ">Leave your contacts and we will call you back</p>
-        <label class="modal-form-field">
-          <span class="modal-form-label-descr">Name</span>
-        <input type="text" name="user_name" class="modal-form-input" required pattern="^[a-zA-Z]+$"  
-        minlength="2"></label>
-        <label class="modal-form-field">
-          <span class="modal-form-label-descr">Phone</span>
-        <input type="tel" name="user_phone" class="modal-form-input" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"></label>
-        <label class="modal-form-field">
-          <span class="modal-form-label-descr">Email</span>
-        <input type="email" name="user_email" class="modal-form-input" required pattern="^[a-zA-Z]"></label>
+        <div class="modal-wrap-icon">
+          <label class="modal-form-field">
+            <span class="modal-form-label-descr">Name</span>
+            <input type="text" name="user_name" class="modal-form-input" required pattern="^[a-zA-Z]+$" minlength="2">
+            <svg width="12" height="12" class="modal-form-input-icon">
+              <use href="./images/sprite.svg#icon-name"></use>
+            </svg></label>
+        </div>
+    <div class="modal-wrap-icon"><label class="modal-form-field">
+      <span class="modal-form-label-descr">Phone</span>
+      <input type="tel" name="user_phone" class="modal-form-input" required
+        pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"><svg width="13" height="13" class="modal-form-input-icon">
+        <use href="./images/sprite.svg#icon-phone"></use>
+      </svg></label></div>
+       <div class="modsl-wrap-icon"><label class="modal-form-field">
+        <span class="modal-form-label-descr">Email</span>
+        <input type="email" name="user_email" class="modal-form-input" required pattern="^[a-zA-Z]">
+        <svg width="15" height="12" class="modal-form-input-icon">
+          <use href="./images/sprite.svg#icon-email"></use>
+        </svg></label></div>
         <label class="modal-form-field"><span class="modal-form-label-descr">Comment</span>
         <textarea name="" 
         id="" 
